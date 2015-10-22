@@ -1,0 +1,14 @@
+{
+  "name": "drupal/entity_block",
+  "type": "drupal-module",
+  "description": "Place your content entities as blocks.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/yannickoo/entity_block",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/yannickoo/entity_block/issues",
+    "source": "https://github.com/yannickoo/entity_block/tree/8.x-1.x"
+  },
+  "require": { }
+}
