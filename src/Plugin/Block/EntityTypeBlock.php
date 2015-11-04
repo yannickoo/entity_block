@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains Drupal\entity_block\Plugin\Block\EntityBlock.
+ * Contains Drupal\entity_type_block\Plugin\Block\EntityTypeBlock.
  */
 
-namespace Drupal\entity_block\Plugin\Block;
+namespace Drupal\entity_type_block\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
@@ -14,11 +14,11 @@ use Drupal\Core\Form\FormStateInterface;
  * Provides an entity block.
  *
  * @Block(
- *  id = "entity_block",
- *  admin_label = @Translation("Entity block"),
+ *  id = "entity_type_block",
+ *  admin_label = @Translation("Entity type block"),
  * )
  */
-class EntityBlock extends BlockBase {
+class EntityTypeBlock extends BlockBase {
 
   /**
    * {@inheritdoc}
